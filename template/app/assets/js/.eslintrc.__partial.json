@@ -1,0 +1,24 @@
+{
+    "plugins": [
+        "html"
+    ],
+
+    "settings": {
+        "import/resolver": {
+            "webpack": {
+                "config": {
+                    "resolve": {
+                        "extensions": [".js", ".vue"]
+                    }
+                }
+            }
+        }
+    },
+
+    "rules": {
+        "import/extensions": ["error", "always", {
+            "js": "never",
+            "vue": "never"
+        }]
+    }
+}
