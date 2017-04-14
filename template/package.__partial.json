@@ -6,6 +6,11 @@
   "devDependencies": {
     "vue-loader": "11.3.4",
     "vue-style-loader": "2.0.5",
-    "vue-template-compiler": "2.2.6"
+    "vue-template-compiler": "2.2.6",
+    "eslint-plugin-html": "2.0.1",
+    "stylelint-processor-html": "1.0.0"
+  },
+  "scripts": {
+    "stylelint": "stylelint './app/assets/**/*.{vue,scss}'"
   }
 }
