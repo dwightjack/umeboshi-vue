@@ -8,7 +8,7 @@ module.exports = ({ utils }) => {
 
             const injector = new utils.Injector(files);
 
-            injector.at('scripts/webpack.base.js', {
+            injector.at('config/webpack.base.js', {
                 MODULES_END: `
                 , {
                     test: /\.vue$/,
