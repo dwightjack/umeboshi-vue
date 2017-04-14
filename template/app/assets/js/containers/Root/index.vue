@@ -1,6 +1,6 @@
 <template>
     <div :class="$style.root">
-        Hello {{ message }}
+        Hello {{{{raw-helper}}}}{{ message }}{{{{/raw-helper}}}}
     </div>
 </template>
 
