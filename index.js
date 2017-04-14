@@ -20,8 +20,8 @@ module.exports = ({ utils }) => {
                         loaders: {
                             css: (PRODUCTION ? ExtractTextPlugin.extract({
                                 fallback: 'vue-style-loader',
-                                use: styleLoaders
-                            }) : ['vue-style-loader'].concat(styleLoaders))
+                                use: styleLoaders.loaders
+                            }) : ['vue-style-loader'].concat(styleLoaders.loaders))
                         },
                         cssModules: {
                             modules: true,
