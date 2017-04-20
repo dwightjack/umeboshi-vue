@@ -4,7 +4,7 @@
 
 * [Vue.js](https://vuejs.org/) and [Webpack 2](https://webpack.js.org/) with HMR 
 * ES6+ with [Babel](https://babeljs.io/)
-* Unit test with [Jest](https://facebook.github.io/jest/)
+* Unit test with [Jest](https://facebook.github.io/jest/) (WIP)
 * CSS and JS linting with [ESLint](http://eslint.org/) (airbnb preset) and [Stylelint](https://stylelint.io/)
 * [Sass](http://sass-lang.com/) with [node-sass](https://github.com/sass/node-sass) 
 * CSS [post-processing](https://github.com/postcss/postcss)
