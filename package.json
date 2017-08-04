@@ -10,7 +10,7 @@
   "author": "Marco Solazzi <marco.solazzi@gmail.com>",
   "license": "MIT",
   "engines": {
-    "node": "^6.9.0"
+    "node": ">=6.9.0"
   },
   "devDependencies": {
     "eslint": "4.3.0",
