@@ -24,7 +24,7 @@ module.exports.beforeRender = ({ utils }) => (files, metalsmith, done) => {
             loader: 'vue-loader',
             options: {
                 loaders: {
-                    css: (PRODUCTION ? ExtractTextPlugin.extract({
+                    css: (PRODUCTION ? require('extract-text-webpack-plugin').extract({
                         fallback: 'vue-style-loader',
                         use: styleLoaders.loaders
                     }) : ['vue-style-loader'].concat(styleLoaders.loaders))
