@@ -3,19 +3,8 @@
         "html"
     ],
 
-    "settings": {
-        "import/resolver": {
-            "webpack": {
-                "config": {
-                    "resolve": {
-                        "extensions": [".js", ".vue"]
-                    }
-                }
-            }
-        }
-    },
-
     "rules": {
+        "eol-last": 0,
         "import/extensions": ["error", "always", {
             "js": "never",
             "vue": "never"
