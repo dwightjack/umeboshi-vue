@@ -7,17 +7,18 @@
 <script>
 
 export default {
+    name: 'Root',
+
     data() {
         return {
             message: 'World'
         };
-    },
-    name: 'Root'
+    }
 };
 
 </script>
 
-<style module>
+<style lang="scss" module>
 @import "mixins";
 
 .root {
