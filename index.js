@@ -9,36 +9,6 @@ module.exports = () => {
 
 module.exports.beforeRender = ({ utils }) => (files, metalsmith, done) => {
 
-<<<<<<< HEAD
-            injector.at('config/webpack.base.js', {
-                MODULES_END: `
-                , {
-                    test: /\.vue$/,
-                    include: [
-                        paths.toAbsPath('src.assets/js')
-                    ],
-                    loader: 'vue-loader',
-                    options: {
-                        loaders: {
-                            scss: (PRODUCTION ? ExtractTextPlugin.extract({
-                                fallback: 'vue-style-loader',
-                                use: styleLoaders.loaders
-                            }) : ['vue-style-loader'].concat(styleLoaders.loaders))
-                        },
-                        cssModules: {
-                            camelCase: true,
-                            importLoaders: 1,
-                            sourceMap: true,
-                            localIdentName: '[name]__[local]---[hash:base64:5]'
-                        }
-                    }
-                }`,
-                RESOLVE: 'extensions: [\'.js\', \'.vue\', \'.json\'],'
-            });
-            done();
-        }
-    };
-=======
     const meta = metalsmith.metadata();
     meta.tmpl.hmr = true;
 
@@ -71,5 +41,4 @@ module.exports.beforeRender = ({ utils }) => (files, metalsmith, done) => {
         RESOLVE: 'extensions: [\'.js\', \'.vue\', \'.json\'],'
     });
     done();
->>>>>>> a8dd8b170ce7250bff889d82bfe582154c25d0b4
 };
