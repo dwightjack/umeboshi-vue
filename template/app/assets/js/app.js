@@ -5,7 +5,7 @@
 import 'babel-polyfill';
 
 import Vue from 'vue';
-import Root from './containers/Root';
+import Root from '@/containers/Root';
 
 Vue.config.productionTip = false;
 
