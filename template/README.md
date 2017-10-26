@@ -4,7 +4,8 @@
 
 ## Features
 
-* [Vue.js](https://vuejs.org/) and [Webpack 2](https://webpack.js.org/) with HMR 
+* [Vue.js](https://vuejs.org/) with `.vue` file support (no JSX support ATM)
+* [Webpack 2](https://webpack.js.org/) with HMR 
 * ES6+ with [Babel](https://babeljs.io/)
 * Unit test with [Jest](https://facebook.github.io/jest/)
 * CSS and JS linting with [ESLint](http://eslint.org/) (airbnb preset) and [Stylelint](https://stylelint.io/)
