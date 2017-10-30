@@ -1,5 +1,7 @@
 # Umeboshi Vue.js Template
 
+## This template is DEPRECATED. Please update to the latest [umeboshi-cli](https://github.com/dwightjack/umeboshi-cli) and use [`webpack`](https://github.com/dwightjack/umeboshi-template-webpack) template
+
 ## Features
 
 * [Vue.js](https://vuejs.org/) and [Webpack 2](https://webpack.js.org/) with HMR 
